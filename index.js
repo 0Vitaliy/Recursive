@@ -114,6 +114,7 @@ function processUser(id) {
 }
 
 function startRecursive(users) {
+
     if (!users.length) return 0;
 
     return Promise.all(
